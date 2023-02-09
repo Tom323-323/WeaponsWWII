@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <gradient
+        android:startColor="@color/main_theme_haki"
+        android:endColor="@color/main_theme_haki_light"
+        android:angle="0" />
+
+
+
+    <corners android:bottomLeftRadius="40dp" android:bottomRightRadius="40dp"/>
+
+</shape>

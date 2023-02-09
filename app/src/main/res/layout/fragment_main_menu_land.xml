@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_main_menu"
+    tools:context="com.tomaslab.app.presenter.FragmentMainMenu">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_bg"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="@string/main_menu_title">
+
+            <ImageView
+                android:layout_width="245dp"
+                android:layout_height="164dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/main_menu_logo_main"
+                app:layout_collapseMode="parallax" />
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:elevation="0dp"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/srch_btn_backgr"
+                    android:drawableEnd="@drawable/search_btn"
+                    android:gravity="center_vertical"
+                    android:hint="@string/search_main"
+                    android:inputType="text"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="3dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/black"
+                    android:textSize="23sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/im1"
+                        android:layout_width="match_parent"
+                        android:layout_height="141dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ripple"
+                        android:padding="10dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.931"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/im3"
+                        app:srcCompat="@drawable/main_menu_img_gb" />
+
+                    <ImageButton
+                        android:id="@+id/im2"
+                        android:layout_width="match_parent"
+                        android:layout_height="141dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ripple"
+                        android:padding="10dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.068"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/im3"
+                        app:srcCompat="@drawable/main_menu_img_fr" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/im3"
+                        android:layout_width="159dp"
+                        android:layout_height="141dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ripple"
+                        android:padding="10dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.931"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/editText2"
+                        app:srcCompat="@drawable/main_menu_img_ger" />
+
+                    <ImageButton
+                        android:id="@+id/im4"
+                        android:layout_width="159dp"
+                        android:layout_height="141dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ripple"
+                        android:padding="10dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.064"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/editText2"
+                        app:srcCompat="@drawable/main_menu_img_usa" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/im5"
+                        android:layout_width="159dp"
+                        android:layout_height="141dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ripple"
+                        android:padding="10dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.931"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/img_land"
+                        app:srcCompat="@drawable/main_menu_img_fin" />
+
+                    <ImageButton
+                        android:id="@+id/im6"
+                        android:layout_width="159dp"
+                        android:layout_height="141dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ripple"
+                        android:padding="10dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.068"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/im1"
+                        app:srcCompat="@drawable/main_menu_img_jp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/im7"
+                        android:layout_width="159dp"
+                        android:layout_height="141dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ripple"
+                        android:padding="10dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.931"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/im6"
+                        app:srcCompat="@drawable/main_menu_img_ussr" />
+
+                    <ImageButton
+                        android:id="@+id/im8"
+                        android:layout_width="159dp"
+                        android:layout_height="141dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/ripple"
+                        android:padding="10dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.064"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/im5"
+                        app:srcCompat="@drawable/main_menu_img_it" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

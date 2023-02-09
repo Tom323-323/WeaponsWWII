@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.tomaslab.app.presenter.FragmentSplash">
+
+    <TextView
+        android:id="@+id/tv_content_splash"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/cormorantsc_bold"
+        android:gravity="center"
+        android:text="@string/StringSplashDefault"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/cormorantsc_bold"
+        android:text="@string/StringLabelTomasLab"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="23dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_logo"
+        app:layout_constraintEnd_toStartOf="@+id/text_logo"
+        app:layout_constraintTop_toTopOf="@+id/text_logo"
+        app:srcCompat="@drawable/img_label_tomas_lab" />
+
+    <TextView
+        android:id="@+id/text_tap_to_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:fontFamily="@font/cormorantsc_bold"
+        android:text="@string/tap_to_next"
+        android:textColor="#D5CDCD"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_logo"
+        app:layout_constraintEnd_toEndOf="@+id/text_logo"
+        app:layout_constraintStart_toStartOf="@+id/imageView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
