@@ -14,7 +14,7 @@ import com.example.weaponswwii.R
 import com.example.weaponswwii.databinding.FragmentSelectWeaponsLandBinding
 import com.tomaslab.app.data.DataRepository.DataRepositoryImp
 import com.tomaslab.app.data.storage.CollectionsDataStorage
-import com.tomaslab.app.domain.AdapterFragmentSelectWeapons
+import com.example.weaponswwii.adapter.AdapterFragmentSelectWeapons
 import com.tomaslab.app.domain.UseCaseLoadWeapons
 import com.tomaslab.app.domain.model.WeaponsModel
 
