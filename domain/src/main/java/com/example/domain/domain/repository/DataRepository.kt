@@ -1,8 +1,8 @@
-package com.tomaslab.app.domain.repository
+package com.example.domain.domain.repository
 
 import android.content.Context
-import com.tomaslab.app.domain.model.WeaponsModel
-import com.tomaslab.app.domain.model.WeaponsModelType
+import com.example.domain.domain.model.WeaponsModel
+import com.example.domain.domain.model.WeaponsModelType
 
 interface DataRepository {
 

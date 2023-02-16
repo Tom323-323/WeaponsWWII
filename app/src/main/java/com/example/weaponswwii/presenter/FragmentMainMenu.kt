@@ -1,4 +1,4 @@
-package com.tomaslab.app.presenter
+package com.example.weaponswwii.presenter
 
 import android.os.Bundle
 import android.view.View
@@ -7,7 +7,6 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.weaponswwii.R
 import com.example.weaponswwii.databinding.FragmentMainMenuLandBinding
-
 
 class FragmentMainMenu: Fragment(R.layout.fragment_main_menu_land), View.OnClickListener {
 

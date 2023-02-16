@@ -1,4 +1,4 @@
-package com.tomaslab.app.data.storage.models
+package com.example.data.data.storage.models
 
 class DataModelTypeWeapons(val id: String,
                            val name: String,

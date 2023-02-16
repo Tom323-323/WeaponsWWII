@@ -1,4 +1,4 @@
-package com.tomaslab.app.presenter
+package com.example.weaponswwii.presenter
 
 import android.os.Bundle
 import android.view.View
@@ -25,10 +25,6 @@ class FragmentContentWeapons: Fragment(R.layout.fragment_content_weapons) {
         val id_weapon= requireArguments().getInt(ID_CONTENT,999)
         val id_type = requireArguments().getInt(ID_TYPE, 999)
         val id_land = requireArguments().getInt(ID_LAND,999)
-
-
-        //val id_main = id_land.toString()+id_type.toString()+id_weapon.toString()
-
 
         crateContent(id_land,id_type,id_weapon) // Create content
 

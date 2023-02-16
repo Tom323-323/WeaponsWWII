@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/fragmentSplash"
-        android:name="com.tomaslab.app.presenter.FragmentSplash"
+        android:name="com.example.weaponswwii.presenter.FragmentSplash"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentMainMenu"
-        android:name="com.tomaslab.app.presenter.FragmentMainMenu"
+        android:name="com.example.weaponswwii.presenter.FragmentMainMenu"
         android:label="fragment_main_menu_land"
         tools:layout="@layout/fragment_main_menu_land" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentSelectWeapons"
-        android:name="com.tomaslab.app.presenter.FragmentSelectWeapons"
+        android:name="com.example.weaponswwii.presenter.FragmentSelectWeapons"
         android:label="fragment_select_weapons_land"
         tools:layout="@layout/fragment_select_weapons_land" >
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentSelectTypeWeapons"
-        android:name="com.tomaslab.app.presenter.FragmentWeapons"
+        android:name="com.example.weaponswwii.presenter.FragmentWeapons"
         android:label="fragment_select_type_weapons"
         tools:layout="@layout/fragment_select_type_weapons" >
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentContentWeapons"
-        android:name="com.tomaslab.app.presenter.FragmentContentWeapons"
+        android:name="com.example.weaponswwii.presenter.FragmentContentWeapons"
         android:label="fragment_content_weapons"
         tools:layout="@layout/fragment_content_weapons" />
 </navigation>

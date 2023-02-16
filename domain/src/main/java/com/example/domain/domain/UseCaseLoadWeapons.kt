@@ -1,9 +1,9 @@
-package com.tomaslab.app.domain
+package com.example.domain.domain
 
 
 import android.content.Context
-import com.tomaslab.app.domain.model.WeaponsModel
-import com.tomaslab.app.domain.repository.DataRepository
+import com.example.domain.domain.model.WeaponsModel
+import com.example.domain.domain.repository.DataRepository
 
 class UseCaseLoadWeapons (private val dataRepository: DataRepository){
 

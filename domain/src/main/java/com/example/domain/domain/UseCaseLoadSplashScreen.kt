@@ -1,8 +1,7 @@
-package com.tomaslab.app.domain
+package com.example.domain.domain
 
 import android.content.Context
 import com.example.domain.R
-
 import kotlin.random.Random
 
 class UseCaseLoadSplashScreen {

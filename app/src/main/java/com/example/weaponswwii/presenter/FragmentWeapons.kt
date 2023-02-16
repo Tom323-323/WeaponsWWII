@@ -1,4 +1,4 @@
-package com.tomaslab.app.presenter
+package com.example.weaponswwii.presenter
 
 import android.os.Bundle
 import android.view.View
@@ -6,12 +6,12 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.weaponswwii.R
 import com.example.weaponswwii.databinding.FragmentSelectTypeWeaponsBinding
-import com.tomaslab.app.data.DataRepository.DataRepositoryImp
-import com.tomaslab.app.data.storage.CollectionsDataStorage
+import com.example.data.data.DataRepository.DataRepositoryImp
+import com.example.data.data.storage.CollectionsDataStorage
 import com.example.weaponswwii.adapter.AdapterFragmentSelectTypeWeapons
-import com.tomaslab.app.domain.UseCaseLoadTypeWeapons
-import com.tomaslab.app.domain.UseCaseLoadWeapons
-import com.tomaslab.app.domain.model.WeaponsModelType
+import com.example.domain.domain.UseCaseLoadTypeWeapons
+import com.example.domain.domain.UseCaseLoadWeapons
+import com.example.domain.domain.model.WeaponsModelType
 
 
 class FragmentWeapons: Fragment(R.layout.fragment_select_type_weapons) {

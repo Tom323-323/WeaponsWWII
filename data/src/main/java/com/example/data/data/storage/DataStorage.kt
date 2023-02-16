@@ -1,8 +1,8 @@
 package com.tomaslab.app.data.storage
 
 import android.content.Context
-import com.tomaslab.app.data.storage.models.DataModelTypeWeapons
-import com.tomaslab.app.data.storage.models.DataModelWeapons
+import com.example.data.data.storage.models.DataModelTypeWeapons
+import com.example.data.data.storage.models.DataModelWeapons
 
 interface DataStorage {
 

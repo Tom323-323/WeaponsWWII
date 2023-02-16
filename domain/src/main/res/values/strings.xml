@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Armor</string>
-    <string name="search_main">Search weapons...</string>
+    <string name="search_main">Search weapons…</string>
     <string name="main_menu_title">Weapons World War II</string>
-    <string name="tap_to_next">TAP TO NEXT...</string>
+    <string name="tap_to_next">TAP TO NEXT…</string>
     <string name="StringSplashDefault">Бог создал людей. Полковник Кольт сделал их равными.\n- Американская пословица</string>
     <string name="StringLabelTomasLab">TomasLab</string>
     <string name="title_img">recycler_viev_img_select</string>

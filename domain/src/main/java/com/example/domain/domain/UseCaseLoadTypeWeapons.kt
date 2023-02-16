@@ -1,7 +1,7 @@
-package com.tomaslab.app.domain
+package com.example.domain.domain
 
-import com.tomaslab.app.domain.model.WeaponsModelType
-import com.tomaslab.app.domain.repository.DataRepository
+import com.example.domain.domain.model.WeaponsModelType
+import com.example.domain.domain.repository.DataRepository
 
 class UseCaseLoadTypeWeapons  (private val dataRepository: DataRepository){
 

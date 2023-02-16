@@ -1,4 +1,4 @@
-package com.tomaslab.app.domain.model
+package com.example.domain.domain.model
 
 data class WeaponsModelType(val id: String,
                        val name: String,

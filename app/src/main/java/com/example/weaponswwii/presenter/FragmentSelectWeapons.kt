@@ -1,4 +1,4 @@
-package com.tomaslab.app.presenter
+package com.example.weaponswwii.presenter
 
 import android.os.Bundle
 import android.os.Handler
@@ -12,11 +12,11 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SnapHelper
 import com.example.weaponswwii.R
 import com.example.weaponswwii.databinding.FragmentSelectWeaponsLandBinding
-import com.tomaslab.app.data.DataRepository.DataRepositoryImp
-import com.tomaslab.app.data.storage.CollectionsDataStorage
+import com.example.data.data.DataRepository.DataRepositoryImp
+import com.example.data.data.storage.CollectionsDataStorage
 import com.example.weaponswwii.adapter.AdapterFragmentSelectWeapons
-import com.tomaslab.app.domain.UseCaseLoadWeapons
-import com.tomaslab.app.domain.model.WeaponsModel
+import com.example.domain.domain.UseCaseLoadWeapons
+import com.example.domain.domain.model.WeaponsModel
 
 
 class FragmentSelectWeapons: Fragment(R.layout.fragment_select_weapons_land) {

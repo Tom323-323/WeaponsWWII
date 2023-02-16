@@ -1,4 +1,4 @@
-package com.tomaslab.app.presenter
+package com.example.weaponswwii.presenter
 
 import android.os.Bundle
 import android.view.View
@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.weaponswwii.R
 import com.example.weaponswwii.databinding.FragmentSplashBinding
-import com.tomaslab.app.domain.UseCaseLoadSplashScreen
+import com.example.domain.domain.UseCaseLoadSplashScreen
 
 
 class FragmentSplash: Fragment(R.layout.fragment_splash) {

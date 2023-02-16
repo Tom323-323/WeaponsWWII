@@ -12,7 +12,7 @@
         android:id="@+id/viewHolderWeapons"
         android:orientation="vertical"
         android:background="@color/white"
-        tools:context="com.tomaslab.app.presenter.FragmentContentWeapons">
+        tools:context=".presenter.FragmentContentWeapons">
 
 
         <ImageView

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/fragment_main_menu"
-    tools:context="com.tomaslab.app.presenter.FragmentMainMenu">
+    tools:context=".presenter.FragmentMainMenu">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"

@@ -1,11 +1,12 @@
-package com.tomaslab.app.data.storage
+package com.example.data.data.storage
 
 import android.content.Context
 import com.example.data.R
-import com.tomaslab.app.data.storage.models.DataModelTypeWeapons
-import com.tomaslab.app.data.storage.models.DataModelWeapons
+import com.example.data.data.storage.models.DataModelTypeWeapons
+import com.example.data.data.storage.models.DataModelWeapons
+import com.tomaslab.app.data.storage.DataStorage
 
-class CollectionsDataStorage (): DataStorage{
+class CollectionsDataStorage (): DataStorage {
 
     var array: ArrayList<Int> = arrayListOf()
 

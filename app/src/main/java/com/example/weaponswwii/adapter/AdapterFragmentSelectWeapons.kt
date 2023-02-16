@@ -11,9 +11,8 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.domain.R
-import com.tomaslab.app.presenter.FragmentWeapons
-import com.tomaslab.app.domain.model.WeaponsModel
+import com.example.weaponswwii.presenter.FragmentWeapons
+import com.example.domain.domain.model.WeaponsModel
 
 class AdapterFragmentSelectWeapons(private val dataWeapons: ArrayList<WeaponsModel>, val parentFragment: Fragment, val id_land: Int) : RecyclerView.Adapter<AdapterFragmentSelectWeapons.ViewHolder>() {
 
@@ -35,7 +34,6 @@ class AdapterFragmentSelectWeapons(private val dataWeapons: ArrayList<WeaponsMod
     }
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-
         fun bind(dataWeapons: WeaponsModel, index: Int) {
             val image = itemView.findViewById<ImageView>(com.example.weaponswwii.R.id.img_viewHolder)
             val title = itemView.findViewById<TextView>(com.example.weaponswwii.R.id.tv_title_holder)
